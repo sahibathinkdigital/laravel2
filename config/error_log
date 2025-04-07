@@ -1,0 +1,8 @@
+[07-Aug-2024 19:42:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/a1715hhz/public_html/thinkdigitalindia.in/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home3/a1715hhz/public_html/thinkdigitalindia.in/config/database.php on line 19
+[08-Aug-2024 23:36:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/a1715hhz/public_html/thinkdigitalindia.in/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home3/a1715hhz/public_html/thinkdigitalindia.in/config/database.php on line 19

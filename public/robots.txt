@@ -1,0 +1,45 @@
+# All robots are allowed to crawl the entire site, except specific disallowed sections.
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# Allow specific resources for better crawling and indexing
+Allow: /wp-admin/admin-ajax.php
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Disallow certain file types to save crawl budget
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+Disallow: /*.ppt$
+
+# Specific instructions for major search engine crawlers
+User-agent: Googlebot
+Allow: /images/
+Allow: /videos/
+Allow: /css/
+Allow: /js/
+
+User-agent: Bingbot
+Allow: /images/
+Allow: /videos/
+Allow: /css/
+Allow: /js/
+
+# Block certain bots known for scraping content
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://www.thinkdigitalindia.in/sitemap.xml
+
